@@ -1,0 +1,11 @@
+host: ""
+port: 8317
+
+remote-management:
+  allow-remote: true
+  secret-key: "你设置的管理密码"   # ← 这里改成你自己的强密码
+
+api-keys:
+  - "sk-your-custom-key-1234567890"   # ← 客户端用的 API Key
+
+debug: false
